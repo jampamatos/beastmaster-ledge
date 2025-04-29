@@ -1,19 +1,19 @@
 [project]
-title = "Preswald Project"
+title = "SageWork's Beastmaster's Ledge"
 version = "0.1.0"
 port = 8501
-slug = "beastmaster-ledge-930277"  
+slug = "beastmaster-ledge"  
 entrypoint = "hello.py"    
 
 [branding]
-name = "Preswald Project"
+name = "Beastmaster's Ledge"
 logo = "images/logo.png"
 favicon = "images/favicon.ico"
-primaryColor = "#F89613"
+primaryColor = "#7F4E12"
 
-[data.sample_csv]
+[data.monsters]
 type = "csv"
-path = "data/sample.csv"
+path = "data/dnd_monsters.csv"
 
 [logging]
 level = "INFO"  
